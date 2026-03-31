@@ -1,21 +1,75 @@
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+body{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin: 0;
 }
 
-body{
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
 code{
     font-family: "Courier New", monospace;
     background-color: #EFEFEF;
+    padding: 1px;
+    border-radius: 3px;
 }
 
 .article{
     position: absolute;
     left: 362px;
     right: 361px;
+    font-size: 21px;
 }
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 38px;
+}
+
+.menu-item{
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+    margin-left: 38px;
+
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.current-menu-item:hover{
+    text-decoration: underline;
+}
+
+.current-menu-item{
+    text-decoration: none;
+    font-size: 36px;
+    margin-left: 38px;
+    color: red;
+}
+
+.first_menu_item{
+    margin-left: 38px;
+}
+
+.menu-items{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+
 
 .example1{
     width: 700px;
