@@ -9,6 +9,13 @@ h1, h2, h3, h4, h5, h6 {
 
 code{
     font-family: "Courier New", monospace;
+    background-color: #EFEFEF;
+}
+
+.article{
+    position: absolute;
+    left: 362px;
+    right: 361px;
 }
 
 li{
