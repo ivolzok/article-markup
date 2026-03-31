@@ -84,7 +84,7 @@ ul{
 @media (max-width: 800px) {
     .article{
         position: absolute;
-        left: 20px;
+        left: 50px;
         right: 20px;
     }
 
@@ -96,6 +96,11 @@ ul{
     .example2{
         width: 700px;
         height: 923px;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
     }
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
