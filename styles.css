@@ -89,13 +89,13 @@ ul{
     }
 
     .example1{
-        width: 520px;
-        height: 640px;
+        width: 400px;
+        height: 420px;
     }
 
     .example2{
-        width: 700px;
-        height: 923px;
+        width: 400px;
+        height: 520px;
     }
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
