@@ -8,6 +8,13 @@ body{
 
 code{
     font-family: "Courier New", monospace;
+    background-color: #EFEFEF;
+}
+
+.article{
+    position: absolute;
+    left: 362px;
+    right: 361px;
 }
 
 @media (max-width: 800px) {
