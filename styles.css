@@ -70,6 +70,12 @@ ul{
 
 
 @media (max-width: 800px) {
+    .article{
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        color: red;
+    }
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
